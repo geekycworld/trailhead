@@ -1,0 +1,28 @@
+<apex:page id="WAM" standardController="Account" tabStyle="Account" extensions="WAM_DocumentOptOutController">
+    <apex:pageMessages escape="false"></apex:pageMessages>
+    <apex:form id="form" >
+        <apex:pageBlock id="prodPB" mode="">
+            <apex:pageBlockTable id="pbTable" value="{!documentOptOutList}" var="optItem">
+                <apex:column headerValue="Role" width="20%">
+                    <apex:outputlabel value="{!optItem.role}"/>
+                </apex:column>
+                <apex:column headerValue="Fund Information">
+                    <apex:inputCheckbox value="{!optItem.fundInformation}"/>
+                </apex:column>
+                <apex:column headerValue="Market Information">
+                    <apex:inputCheckbox value="{!optItem.marketInformation}"/>
+                </apex:column>
+                <apex:column headerValue="Event Promotion">
+                    <apex:inputCheckbox value="{!optItem.eventPromotion}"/>
+                </apex:column>
+                <apex:column headerValue="Legal Document">
+                    <apex:inputCheckbox value="{!optItem.legalDocument}"/>
+                </apex:column>
+            </apex:pageBlockTable>      
+            <div align="center" draggable="false">
+                <apex:commandButton id="update" action="{!quickSave}" value="Update Settings" styleclass="updateButton"/>
+                <apex:commandButton id="cancelEdit" action="{!cancelEdit}" value="Cancel" styleclass="cancelButton"/>
+            </div>
+        </apex:pageBlock>
+    </apex:form> 
+</apex:page>

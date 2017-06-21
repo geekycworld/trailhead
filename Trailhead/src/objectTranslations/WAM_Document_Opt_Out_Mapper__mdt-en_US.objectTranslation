@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WAM Document Opt Out Mapper</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>WAM Document Opt Out Mappers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact Level API --></label>
+        <name>Contact_Level_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Category --></label>
+        <name>Document_Category__c</name>
+        <picklistValues>
+            <masterLabel>Event Promotion</masterLabel>
+            <translation><!-- Event Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fund Information</masterLabel>
+            <translation><!-- Fund Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Document</masterLabel>
+            <translation><!-- Legal Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Information</masterLabel>
+            <translation><!-- Market Information --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>WAM Document Opt Out Mapper Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

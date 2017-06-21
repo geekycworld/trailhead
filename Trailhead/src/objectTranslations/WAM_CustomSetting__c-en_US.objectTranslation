@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WAM_CustomSetting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>WAM_CustomSetting</value>
+    </caseValues>
+    <fields>
+        <help><!-- WAMCRM : AUM in Manulife Record Type --></help>
+        <label><!-- AUM in Manulife Record Type --></label>
+        <name>AUM_in_Manulife_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Distributor Record Type Label --></label>
+        <name>Account_Distributor_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Distributor Record Type Name --></label>
+        <name>Account_Distributor_Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Contact Distributor Record Type Label --></help>
+        <label><!-- Contact Distributor Record Type Label --></label>
+        <name>Contact_Distributor_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Contact Distributor Record Type Name --></help>
+        <label><!-- Contact Distributor Record Type Name --></label>
+        <name>Contact_Distributor_Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Purpose Record Type Label --></label>
+        <name>Contact_Purpose_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM: Default country code --></help>
+        <label><!-- Default Country Code --></label>
+        <name>Default_Country_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Distributor Sales InformationRecord Type --></help>
+        <label><!-- Distributor Sales Info Record Type --></label>
+        <name>Distributor_Sales_Info_Record_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Event Record Type used to manage distributors --></help>
+        <label><!-- Event Record Type --></label>
+        <name>Event_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Fund Record Type to distinguish WAM funds --></help>
+        <label><!-- Fund Record Type --></label>
+        <name>Fund_Record_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Opportunity Distributor Record Type --></help>
+        <label><!-- Opportunity Distributor Record Type --></label>
+        <name>Opportunity_Distributor_Record_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- WAMCRM : Task Record Type to manage distributors --></help>
+        <label><!-- Task Record Type --></label>
+        <name>Task_Record_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
