@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>WAMCRM: Mapping individual document at contact into Document category.</description>
+    <fields>
+        <fullName>Contact_Level_API__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Contact Level API</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Category__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Document Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Fund Information</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Market Information</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event Promotion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Legal Document</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>true</required>
+        <type>Picklist</type>
+    </fields>
+    <label>WAM Document Opt Out Mapper</label>
+    <pluralLabel>WAM Document Opt Out Mappers</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

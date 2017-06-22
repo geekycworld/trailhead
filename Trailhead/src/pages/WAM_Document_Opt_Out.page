@@ -1,7 +1,7 @@
 <apex:page id="WAM" standardController="Account" tabStyle="Account" extensions="WAM_DocumentOptOutController">
     <apex:pageMessages escape="false"></apex:pageMessages>
     <apex:form id="form" >
-        <apex:pageBlock id="prodPB" mode="">
+        <apex:pageBlock id="prodPB" mode="edit">
             <apex:pageBlockTable id="pbTable" value="{!documentOptOutList}" var="optItem">
                 <apex:column headerValue="Role" width="20%">
                     <apex:outputlabel value="{!optItem.role}"/>

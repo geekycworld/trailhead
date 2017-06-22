@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>WAMCRM: custom Settings</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AUM_in_Manulife_Record_Type__c</fullName>
+        <description>WAMCRM : AUM in Manulife Record Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : AUM in Manulife Record Type</inlineHelpText>
+        <label>AUM in Manulife Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Distributor_Record_Type_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Distributor Record Type Label</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Distributor_Record_Type_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Distributor Record Type Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Distributor_Record_Type_Label__c</fullName>
+        <description>WAMCRM : Contact Distributor Record Type Label</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Contact Distributor Record Type Label</inlineHelpText>
+        <label>Contact Distributor Record Type Label</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Distributor_Record_Type_Name__c</fullName>
+        <description>WAMCRM : Contact Distributor Record Type Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Contact Distributor Record Type Name</inlineHelpText>
+        <label>Contact Distributor Record Type Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Purpose_Record_Type_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Purpose Record Type Label</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Default_Country_Code__c</fullName>
+        <description>WAMCRM: Default country code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM: Default country code</inlineHelpText>
+        <label>Default Country Code</label>
+        <length>6</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Distributor_Sales_Info_Record_Type__c</fullName>
+        <description>WAMCRM : Distributor Sales InformationRecord Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Distributor Sales InformationRecord Type</inlineHelpText>
+        <label>Distributor Sales Info Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Record_Type__c</fullName>
+        <description>WAMCRM : Event Record Type used to manage distributors</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Event Record Type used to manage distributors</inlineHelpText>
+        <label>Event Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Fund_Record_Type__c</fullName>
+        <description>WAMCRM : Fund Record Type to distinguish WAM funds</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Fund Record Type to distinguish WAM funds</inlineHelpText>
+        <label>Fund Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Distributor_Record_Type__c</fullName>
+        <description>WAMCRM : Opportunity Distributor Record Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Opportunity Distributor Record Type</inlineHelpText>
+        <label>Opportunity Distributor Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Task_Record_Type__c</fullName>
+        <description>WAMCRM : Task Record Type to manage distributors</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WAMCRM : Task Record Type to manage distributors</inlineHelpText>
+        <label>Task Record Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>WAM_CustomSetting</label>
+    <visibility>Public</visibility>
+</CustomObject>

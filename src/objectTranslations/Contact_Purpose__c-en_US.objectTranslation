@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Purpose</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Purposes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Contact Purposes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Method Type --></label>
+        <name>Contact_Method_Type__c</name>
+        <picklistValues>
+            <masterLabel>Address</masterLabel>
+            <translation><!-- Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InPerson</masterLabel>
+            <translation><!-- InPerson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telex</masterLabel>
+            <translation><!-- Telex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebPage</masterLabel>
+            <translation><!-- WebPage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Purpose --></label>
+        <name>Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Event Promotion</masterLabel>
+            <translation><!-- Event Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fund Information</masterLabel>
+            <translation><!-- Fund Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Document</masterLabel>
+            <translation><!-- Legal Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Information</masterLabel>
+            <translation><!-- Market Information --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation</masterLabel>
+            <translation><!-- Operation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - Branch Managers</masterLabel>
+            <translation><!-- Sales - Branch Managers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - Branch RMs</masterLabel>
+            <translation><!-- Sales - Branch RMs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - District Managers</masterLabel>
+            <translation><!-- Sales - District Managers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - Investment Consultant</masterLabel>
+            <translation><!-- Sales - Investment Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Management</masterLabel>
+            <translation><!-- Senior Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth</masterLabel>
+            <translation><!-- Wealth --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- WAM --></label>
+        <name>WAM</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
